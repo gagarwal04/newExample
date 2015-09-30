@@ -3,6 +3,11 @@ package com.training;
 public class NotifyExample {
 	
 	
+	public void display(){
+		
+		System.out.println("hello world");
+	}
+	
 	@Override
 	public String toString() {
 		return "NotifyExample [balance=" + balance + "]";
