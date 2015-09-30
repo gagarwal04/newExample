@@ -8,6 +8,10 @@ public class NotifyExample {
 		System.out.println("hello world");
 	}
 	
+public void shownew(){
+		System.out.println("hihhiihihh");
+		System.out.println("hi");
+	}
 	@Override
 	public String toString() {
 		return "NotifyExample [balance=" + balance + "]";

@@ -2,7 +2,11 @@ package com.training;
 
 public class PrintString {
 
-	
+public void show(){
+		
+		System.out.println("hello printString");
+	}
+
 	public synchronized static void printString(String str1, String str2 ) // printed in defined order otherwise printed randomly
 	{
 		System.out.println("Thread"+Thread.currentThread().getId()+" Entering");  // to get the thread id that's running 
