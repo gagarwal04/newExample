@@ -3,6 +3,11 @@ package com.training;
 public class JoinExample {
 	
 	
+	@Override
+	public String toString() {
+		return "JoinExample []";
+	}
+
 	public static void main(String args[]){
 		System.out.println("main started"); // main thread
 
